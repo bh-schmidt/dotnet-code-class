@@ -23,7 +23,7 @@ namespace DotnetCodeClass.Factories
             }
         }
 
-        public static IEnumerable<string> ConcatIndexWith(string value, long arraySize)
+        public static IEnumerable<string> ConcatWithIndex(string value, long arraySize)
         {
             for (long i = 0; i < arraySize; i++)
             {

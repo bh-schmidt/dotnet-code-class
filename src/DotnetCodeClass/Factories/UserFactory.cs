@@ -17,9 +17,9 @@ namespace DotnetCodeClass.Factories
             };
         }
 
-        public static IEnumerable<User> GenerateMany(long length)
+        public static IEnumerable<User> Generate(long count)
         {
-            for (long i = 0; i < length; i++)
+            for (long i = 0; i < count; i++)
             {
                 yield return Generate();
             }
